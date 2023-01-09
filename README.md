@@ -52,3 +52,14 @@
   <li>Simple Network Management Protocol (SNMP) - Uses UDP port 161</li>
   <li>Structured Query Language (SQL) Server - Uses TCP port 1433</li>
 </ul>
+
+<!-- This HTML link element uses the "http" protocol and default port 80 to link to the IANA website -->
+<a href="http://www.iana.org">Internet Assigned Numbers Authority</a>
+
+<!-- This HTML image element uses the "ftp" protocol and port 21 to retrieve an image from an FTP server -->
+<img src="ftp://ftp.example.com:21/image.jpg" alt="An image from an FTP server">
+
+<!-- This HTML form element uses the "https" protocol and default port 443 to submit data securely to a server -->
+<form action="https://www.example.com/submit" method="post">
+  <!-- Form fields go here -->
+</form>
